@@ -20,10 +20,12 @@ A Python script to find and remove files that are no longer associated with any 
 
 ## Installation
 
+#### Option 1: Git Clone (Recommended)
+
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/yourusername/qbittorrent-orphan-cleaner.git](https://github.com/yourusername/qbittorrent-orphan-cleaner.git)
-    cd qbittorrent-orphan-cleaner
+    git clone [https://github.com/UgaBugaBoo/qbittorrent_orphan-cleaner.git](https://github.com/UgaBugaBoo/qbittorrent_orphan-cleaner.git)
+    cd qbittorrent_orphan-cleaner
     ```
 
 2.  **Install the required Python package:**
@@ -31,11 +33,34 @@ A Python script to find and remove files that are no longer associated with any 
     pip install qbittorrent-api
     ```
 
+3.  **Run the script:**
+    ```bash
+    python3 qbittorrent-orphan-cleaner.py
+    ```
+
+#### Option 2: Quick Run (No Git Required)
+
+You can download and run the script directly without cloning the repository.
+
+-   **Using `wget`:**
+    ```bash
+    wget [https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py](https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py)
+    python3 qbittorrent-orphan-cleaner.py
+    ```
+
+-   **Using `curl`:**
+    ```bash
+    curl -O [https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py](https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py)
+    python3 qbittorrent-orphan-cleaner.py
+    ```
+    *Note: You still need to install the required package: `pip install qbittorrent-api`*
+
+
 ## Usage
 
 1.  **Run the script from your terminal:**
     ```bash
-    python3 orphan_cleaner.py
+    python3 qbittorrent-orphan-cleaner.py
     ```
 
 2.  The script will interactively prompt you for the following information:
@@ -74,7 +99,7 @@ For the script to connect to qBittorrent, you must have the Web UI enabled.
 #### Permission Denied
 -   **Read Access:** The script needs read permissions for your download directory to scan for files.
 -   **Write/Delete Access:** To delete files, the script needs write permissions.
--   **Run with elevated privileges:** If necessary, run the script with `sudo` (`sudo python3 orphan_cleaner.py`), but be extremely cautious, especially when deleting files.
+-   **Run with elevated privileges:** If necessary, run the script with `sudo` (`sudo python3 qbittorrent-orphan-cleaner.py`), but be extremely cautious, especially when deleting files.
 
 ---
 
