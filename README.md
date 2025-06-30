@@ -24,7 +24,7 @@ A Python script to find and remove files that are no longer associated with any 
 
 1.  **Clone this repository:**
     ```bash
-    git clone [https://github.com/UgaBugaBoo/qbittorrent_orphan-cleaner.git](https://github.com/UgaBugaBoo/qbittorrent_orphan-cleaner.git)
+    git clone https://github.com/UgaBugaBoo/qbittorrent_orphan-cleaner.git
     cd qbittorrent_orphan-cleaner
     ```
 
@@ -44,13 +44,13 @@ You can download and run the script directly without cloning the repository.
 
 -   **Using `wget`:**
     ```bash
-    wget [https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py](https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py)
+    wget https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py
     python3 qbittorrent-orphan-cleaner.py
     ```
 
 -   **Using `curl`:**
     ```bash
-    curl -O [https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py](https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py)
+    curl -O https://raw.githubusercontent.com/UgaBugaBoo/qbittorrent_orphan-cleaner/main/qbittorrent-orphan-cleaner.py
     python3 qbittorrent-orphan-cleaner.py
     ```
     *Note: You still need to install the required package: `pip install qbittorrent-api`*
